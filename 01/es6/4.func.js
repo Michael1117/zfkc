@@ -133,8 +133,8 @@ obj3 = {...obj1, ...obj2}
 console.log(obj3);
 */
 
-// 深度拷贝
-let obj5 = {
+// 浅拷贝
+/*let obj5 = {
     name: 'Jack',
     home:{
         city: 'beijing '
@@ -147,6 +147,50 @@ obj6 = Object.assign(obj6, obj5);
 obj6.home.city = '广州'
 
 console.log(obj5.home.city);
+
+console.log(obj5);
+console.log(obj6);*/
+
+// 深度拷贝
+/*
+let obj5 = {
+    name: 'Jack',
+    home:{
+        city: 'beijing '
+    }
+}
+
+//let obj6 = {}
+let obj6 = JSON.parse(JSON.stringify(obj5))
+
+obj6.home.city = '广州'
+console.log(obj5.home.city);
+console.log(obj5);
+console.log(obj6);
+*/
+
+let obj5 = {
+    name: 'Jack',
+    home:{
+        city: 'beijing '
+    },
+    hobby: ['学习', '吃饭']
+}
+function clone(origin) {
+    let newObj = {}
+    for(let key in origin) {
+        if(typeof origin[key] === 'object') {
+            newObj[key] = clone(origin[key])
+        }else {
+            newObj[key] = origin[key]
+        }
+    }
+    return newObj
+}
+
+let obj6 = clone(obj5);
+
+obj5.home.city = '广州';
 
 console.log(obj5);
 console.log(obj6);
