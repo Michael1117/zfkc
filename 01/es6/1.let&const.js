@@ -48,6 +48,7 @@ for(var i = 0;i<4;i++) {
 */
 
 
+/*
 var loop = function (i) {
     setTimeout(function () {
         console.log(i);
@@ -57,3 +58,34 @@ var loop = function (i) {
 for (var i = 0; i < 5; i++) {
     loop(i)
 }
+*/
+
+/*
+for (var i = 0; i < 5; i++) {
+    (function (j) {
+        setTimeout(function (i) {
+            console.log(j);
+        },1000)
+    })(i)
+}
+*/
+
+/*const PI = 3.14;
+
+console.log(PI);*/
+
+//PI = 100;
+
+//虽然常量不能再引用别的对象了  但是它的值如果是一个引用类型的话 引用对象的属性还是可以修改的
+
+/*
+const USER = {name: 'zfpx'};
+
+USER.name = 'zfpx2'
+
+{
+    const PI = 3
+}
+*/
+
+// es6 中新增了两种声明变量的方式  可以解决以前var 的一些问题

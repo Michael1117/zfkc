@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26f7c9f3-8d8c-424d-bef0-76e204e9c3c4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/01/es6/1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01/es6/2.destructure.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01/es6/3.teplstr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01/es6/4.func.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/01/es6/1.let&amp;const.js" beforeDir="false" afterPath="$PROJECT_DIR$/01/es6/1.let&amp;const.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -16,13 +21,22 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/01/es6/1.let&amp;const.js">
+        <entry file="file://$PROJECT_DIR$/01/es6/4.func.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+            <state relative-caret-position="318">
+              <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/01/es6/1.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="5" selection-start-column="5" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -65,6 +79,11 @@
         <option value="$PROJECT_DIR$/mvvm/MVVM.html" />
         <option value="$PROJECT_DIR$/mvvm/MVVM.js" />
         <option value="$PROJECT_DIR$/01/es6/1.let&amp;const.js" />
+        <option value="$PROJECT_DIR$/01/es6/2.destructure.js" />
+        <option value="$PROJECT_DIR$/01/es6/3.js" />
+        <option value="$PROJECT_DIR$/01/es6/3.teplstr.js" />
+        <option value="$PROJECT_DIR$/01/es6/1.txt" />
+        <option value="$PROJECT_DIR$/01/es6/4.func.js" />
       </list>
     </option>
   </component>
@@ -97,6 +116,12 @@
             <path>
               <item name="zfkc" type="b2602c69:ProjectViewProjectNode" />
               <item name="zfkc" type="462c0819:PsiDirectoryNode" />
+              <item name="01" type="462c0819:PsiDirectoryNode" />
+              <item name="es6" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zfkc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zfkc" type="462c0819:PsiDirectoryNode" />
               <item name="mvvm" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -125,29 +150,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.1.let&amp;const.js">
-    <configuration name="03数据类型.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/01/03数据类型.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Node.js.4.func.js">
     <configuration name="1.let&amp;const.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/01/es6/1.let&amp;const.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="1.server.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/02/ws/1.server.js" working-dir="$PROJECT_DIR$">
+    <configuration name="2.destructure.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/01/es6/2.destructure.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="3.teplstr.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/01/es6/3.teplstr.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="4.func.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/01/es6/4.func.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="server.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/socket/server.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="socket.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/socket/node_modules/socket.io/lib/socket.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.4.func.js" />
+        <item itemvalue="Node.js.3.teplstr.js" />
+        <item itemvalue="Node.js.2.destructure.js" />
         <item itemvalue="Node.js.1.let&amp;const.js" />
         <item itemvalue="Node.js.server.js" />
-        <item itemvalue="Node.js.socket.js" />
-        <item itemvalue="Node.js.1.server.js" />
-        <item itemvalue="Node.js.03数据类型.js" />
       </list>
     </recent_temporary>
   </component>
@@ -161,12 +186,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553051201142</updated>
-      <workItem from="1553051204567" duration="43098000" />
+      <workItem from="1553051204567" duration="53099000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43098000" />
+    <option name="totallyTimeSpent" value="53099000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -181,7 +206,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23937677" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3045326" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -456,8 +481,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/01/es6/1.let&amp;const.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+        <state relative-caret-position="412">
+          <caret line="90" column="37" selection-start-line="90" selection-start-column="37" selection-end-line="90" selection-end-column="37" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01/es6/2.destructure.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="47" column="7" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01/es6/3.teplstr.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="120" lean-forward="true" selection-start-line="120" selection-end-line="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01/es6/1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01/es6/4.func.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
