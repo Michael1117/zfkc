@@ -2,19 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26f7c9f3-8d8c-424d-bef0-76e204e9c3c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01/01.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01/03数据类型.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01/2_array.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01/NOTE.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02/ws/1.server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02/ws/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DOM-DIFF/react_study/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DOM-DIFF/react_study/src/diff.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DOM-DIFF/react_study/src/element.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DOM-DIFF/react_study/src/patch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/socket/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/socket/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01/es6/1.let&amp;const.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvvm/MVVM.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvvm/MVVM.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvvm/compile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvvm/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvvm/observer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvvm/watcher.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,53 +22,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DOM-DIFF/react_study/public/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DOM-DIFF/react_study/src/index.js">
+        <entry file="file://$PROJECT_DIR$/01/es6/1.let&amp;const.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="557">
-              <caret line="57" column="8" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="8" />
+            <state relative-caret-position="384">
+              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
-                <element signature="e#458#517#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DOM-DIFF/react_study/src/patch.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="605">
-              <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DOM-DIFF/react_study/src/diff.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="936">
-              <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DOM-DIFF/react_study/src/element.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="10" selection-start-line="10" selection-end-line="27" selection-end-column="1" />
-              <folding>
-                <element signature="n#Class#0" />
               </folding>
             </state>
           </provider>
@@ -110,6 +65,13 @@
         <option value="$PROJECT_DIR$/DOM-DIFF/react_study/src/diff.js" />
         <option value="$PROJECT_DIR$/DOM-DIFF/react_study/src/patch.js" />
         <option value="$PROJECT_DIR$/DOM-DIFF/react_study/src/index.js" />
+        <option value="$PROJECT_DIR$/mvvm/index.html" />
+        <option value="$PROJECT_DIR$/mvvm/watcher.js" />
+        <option value="$PROJECT_DIR$/mvvm/observer.js" />
+        <option value="$PROJECT_DIR$/mvvm/compile.js" />
+        <option value="$PROJECT_DIR$/mvvm/MVVM.html" />
+        <option value="$PROJECT_DIR$/mvvm/MVVM.js" />
+        <option value="$PROJECT_DIR$/01/es6/1.let&amp;const.js" />
       </list>
     </option>
   </component>
@@ -137,27 +99,12 @@
             <path>
               <item name="zfkc" type="b2602c69:ProjectViewProjectNode" />
               <item name="zfkc" type="462c0819:PsiDirectoryNode" />
-              <item name="DOM-DIFF" type="462c0819:PsiDirectoryNode" />
+              <item name="01" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zfkc" type="b2602c69:ProjectViewProjectNode" />
               <item name="zfkc" type="462c0819:PsiDirectoryNode" />
-              <item name="DOM-DIFF" type="462c0819:PsiDirectoryNode" />
-              <item name="react_study" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zfkc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zfkc" type="462c0819:PsiDirectoryNode" />
-              <item name="DOM-DIFF" type="462c0819:PsiDirectoryNode" />
-              <item name="react_study" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zfkc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zfkc" type="462c0819:PsiDirectoryNode" />
-              <item name="DOM-DIFF" type="462c0819:PsiDirectoryNode" />
-              <item name="react_study" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mvvm" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -221,19 +168,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553051201142</updated>
-      <workItem from="1553051204567" duration="26024000" />
+      <workItem from="1553051204567" duration="42198000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26024000" />
+    <option name="totallyTimeSpent" value="42198000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13738441" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09643329" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
@@ -461,6 +408,65 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#458#517#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvvm/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvvm/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvvm/observer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="46" column="47" selection-start-line="46" selection-start-column="47" selection-end-line="46" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvvm/watcher.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvvm/compile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="138" column="31" selection-start-line="138" selection-start-column="31" selection-end-line="138" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvvm/MVVM.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvvm/MVVM.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01/es6/1.let&amp;const.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
