@@ -15,3 +15,45 @@ let a = 20;
 const PI = 3.14
 // 试图给一个常量赋值 会报错
 PI = 3;*/
+
+
+/*
+if(true) {
+    let a = 10;
+}
+
+console.log(a);*/
+
+// 以前JavaScript只有两个作用域，一个全局 一个函数
+/*
+;(function () {
+
+})();
+
+let a = 20;
+{
+    // a is not defined
+    // let 没有预解析
+    console.log(a);
+    let a = 10;
+}*/
+/*
+for(var i = 0;i<4;i++) {
+    (function(j) {
+        (setTimeout(function (i) {
+            console.log(j);
+        }),1000)
+    })(i)
+}
+*/
+
+
+var loop = function (i) {
+    setTimeout(function () {
+        console.log(i);
+    }, 1000)
+}
+
+for (var i = 0; i < 5; i++) {
+    loop(i)
+}

@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26f7c9f3-8d8c-424d-bef0-76e204e9c3c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/01/es6/1.let&amp;const.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvvm/MVVM.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvvm/MVVM.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvvm/compile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvvm/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvvm/observer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvvm/watcher.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01/es6/1.let&amp;const.js" beforeDir="false" afterPath="$PROJECT_DIR$/01/es6/1.let&amp;const.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/01/es6/1.let&amp;const.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+            <state relative-caret-position="364">
+              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -132,14 +125,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.server.js">
+  <component name="RunManager" selected="Node.js.1.let&amp;const.js">
     <configuration name="03数据类型.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/01/03数据类型.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="1.server.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/02/ws/1.server.js" working-dir="$PROJECT_DIR$">
+    <configuration name="1.let&amp;const.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/01/es6/1.let&amp;const.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="2_array.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/01/2_array.js" working-dir="$PROJECT_DIR$">
+    <configuration name="1.server.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/02/ws/1.server.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="server.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/socket/server.js" working-dir="$PROJECT_DIR$">
@@ -150,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.1.let&amp;const.js" />
         <item itemvalue="Node.js.server.js" />
         <item itemvalue="Node.js.socket.js" />
         <item itemvalue="Node.js.1.server.js" />
         <item itemvalue="Node.js.03数据类型.js" />
-        <item itemvalue="Node.js.2_array.js" />
       </list>
     </recent_temporary>
   </component>
@@ -168,19 +161,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553051201142</updated>
-      <workItem from="1553051204567" duration="42198000" />
+      <workItem from="1553051204567" duration="43098000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42198000" />
+    <option name="totallyTimeSpent" value="43098000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09643329" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09643329" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
@@ -188,7 +181,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.23937677" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23937677" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -463,8 +456,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/01/es6/1.let&amp;const.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        <state relative-caret-position="364">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
