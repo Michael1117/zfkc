@@ -119,14 +119,36 @@ Object.assign(obj3, obj1, obj2)
 console.log(obj3);*/
 
 
+/*
 let obj1 = {name: '1'};
 
 let obj2 = {age: 2}
 let obj3 = {}
-/*
+/!*
 * 对象解构
-* */
+* *!/
 
 obj3 = {...obj1, ...obj2}
 
 console.log(obj3);
+*/
+
+// 深度拷贝
+let obj5 = {
+    name: 'Jack',
+    home:{
+        city: 'beijing '
+    }
+}
+
+let obj6 = {}
+obj6 = Object.assign(obj6, obj5);
+
+obj6.home.city = '广州'
+
+console.log(obj5.home.city);
+
+console.log(obj5);
+console.log(obj6);
+
+
