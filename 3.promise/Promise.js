@@ -15,7 +15,7 @@ function Promise(executor) {
     // 如果是成功态或者失败态的话 则什么也不做
     // 2.1
     function resolve(value) { // 2.1.1
-        if(self.status === PENDING) {
+        if (self.status === PENDING) {
             self.status = FULFILLED
             self.value = value // 成功会得到一个值 这个值不能改
             // 调用所有成功的回调
@@ -26,7 +26,7 @@ function Promise(executor) {
 
     function reject(reason) { // 2.1.2
         // 如果是初始态 则转成失败态
-        if(self.status === PENDING) {
+        if (self.status === PENDING) {
             self.status = REJECTED
             self.value = reason
             self.onRejectedCallbacks.forEach(cb =>
@@ -36,8 +36,14 @@ function Promise(executor) {
 
     try {
         executor(resolve, reject)
-    }catch (e) {
+    } catch (e) {
         //如果这个函数执行失败了 则用失败的原因reject这个promise
+    }
+}
+
+function resolvePromise(promise2, x, resolve, reject) {
+    if (promise2 === x) {
+        return reject(new TypeError('循环引用'))
     }
 }
 
@@ -46,55 +52,50 @@ function Promise(executor) {
 Promise.prototype.then = function (onFulFilled, onRejected) {
     // 如果成功和失败的回调没有传 则表示这个then没有任何逻辑 只会把值往后抛
     // 2.2.1
-    onFulFilled = typeof onFulFilled == 'function' ? onFulFilled: value=>value;
-    onRejected = typeof onRejected == 'function' ? onRejected :reason=>{throw reason}
+    onFulFilled = typeof onFulFilled == 'function' ? onFulFilled : value => value;
+    onRejected = typeof onRejected == 'function' ? onRejected : reason => {
+        throw reason
+    }
 
     // 如果当前的promise 状态已经是成功态了 onFulfilled直接取值
     let self = this;
     let promise2;
-    if(self.status === FULFILLED) {
+    if (self.status === FULFILLED) {
         return promise2 = new Promise(function (resolve, reject) {
-            try{
+            try {
                 let x = onFulFilled(self.value);
-                /*if(x instanceof Promise) {
-
-
-                }*/
                 // 如果获取到了返回值x 会走解析promise的过程
                 resolvePromise(promise2, x, resolve, reject)
-            }catch (e) {
+            } catch (e) {
                 // 如果执行成功的回调过程中出错了  用错误原因把promise2reject
                 reject(e)
             }
-
         })
-
     }
 
-    if(self.status === REJECTED) {
-        try{
+    if (self.status === REJECTED) {
+        try {
             let x = onRejected(self.value)
             resolvePromise(promise2, x, resolve, reject)
-        }catch (e) {
+        } catch (e) {
             reject(e)
         }
-
     }
 
-    if(self.status === PENDING) {
+    if (self.status === PENDING) {
         self.onResolvedCallbacks.push(function () {
-            try{
+            try {
 
-            }catch (e) {
+            } catch (e) {
 
             }
             let x = onFulFilled(self.value)
             resolvePromise(promise2, x, resolve, reject)
         })
         self.onRejectedCallbacks.push(function () {
-            try{
+            try {
 
-            }catch (e) {
+            } catch (e) {
 
             }
             let x = onRejected(self.value)
