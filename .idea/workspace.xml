@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26f7c9f3-8d8c-424d-bef0-76e204e9c3c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/3.promise/Promise.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.promise/case.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.promise/Promise.js" beforeDir="false" afterPath="$PROJECT_DIR$/3.promise/Promise.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.promise/case.js" beforeDir="false" afterPath="$PROJECT_DIR$/3.promise/case.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,14 +15,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.3770739">
+    <splitter split-orientation="horizontal" split-proportion="0.3499246">
       <split-first>
         <leaf>
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/3.promise/case.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="288">
-                  <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+                <state relative-caret-position="567">
+                  <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
                 </state>
               </provider>
             </entry>
@@ -34,8 +34,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/3.promise/Promise.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="48">
-                  <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+                <state relative-caret-position="363">
+                  <caret line="44" column="6" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="6" />
                 </state>
               </provider>
             </entry>
@@ -173,10 +173,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.3.generator.js">
-    <configuration name="11.promise.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/01/es6/11.promise.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Node.js.case.js">
     <configuration name="12.promise.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/01/es6/12.promise.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -189,13 +186,16 @@
     <configuration name="3.generator.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/02/async/3.generator.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+    <configuration name="case.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/3.promise/case.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.case.js" />
         <item itemvalue="Node.js.3.generator.js" />
         <item itemvalue="Node.js.2.callback.js" />
         <item itemvalue="Node.js.1.highorder.js" />
         <item itemvalue="Node.js.12.promise.js" />
-        <item itemvalue="Node.js.11.promise.js" />
       </list>
     </recent_temporary>
   </component>
@@ -209,19 +209,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553051201142</updated>
-      <workItem from="1553051204567" duration="77422000" />
+      <workItem from="1553051204567" duration="81041000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77422000" />
+    <option name="totallyTimeSpent" value="81041000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12417437" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.01981506" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
@@ -229,7 +229,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.40084985" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4220963" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -628,15 +628,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/3.promise/case.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="567">
+          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/3.promise/Promise.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        <state relative-caret-position="363">
+          <caret line="44" column="6" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="6" />
         </state>
       </provider>
     </entry>
