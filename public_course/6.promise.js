@@ -6,6 +6,7 @@ class Promise{
     this.fulfilledAry = [];  // 成功要做的方法
     this.rejectedAry = [];  // 失败要做的方法
 
+    // => 执行excutor (异常捕获)
     let resolveFn = result => {
       let timer = setTimeout (() => {
         clearTimeout(timer)
@@ -26,7 +27,13 @@ class Promise{
         this.rejectedAry.forEach(item => item(this.value))
       }, 0)
     }
-    excutorCallBack(resolveFn, rejectFn)
+
+    try{
+      excutorCallBack(resolveFn, rejectFn)
+    }catch(err){
+      // 有异常信息 按照rejected状态处理
+      rejectFn(err)
+    }
   } 
 
   //fulfilledCallBack成功的回调   rejectedCallBack失败的回调

@@ -1,4 +1,4 @@
-//let Promise = require('./6.promise');
+let Promise = require('./6.promise');
 
 
 new Promise((resolve, reject) => {
