@@ -1,16 +1,22 @@
-let Promise = require('./6.promise');
+// let Promise = require('./6.promise');
 
-new Promise((resolve, reject)=> {
-    throw new Error('ERROR');
+let p1 = new Promise((resolve, reject)=> {
     setTimeout(() => {
         
         Math.random < 0.5  ? resolve(100) : reject(-100)
     }, 1000) 
-}).then(result => {
-    console.log(result) 
-    //return result + 100 
+})
+
+let p2 = p1.then(result => {
+    return result + 100 
 }, reason => {
-    console.log('NO',reason)
-    //return reason + 100
+    return reason + 100
+})
+
+p2.then(result=> {
+    console.log(p1 === p2)
+    console.log(result)
+}, reason => {
+    console.log(reason)
 })
 console.log(3)

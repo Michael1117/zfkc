@@ -41,9 +41,34 @@ class Promise{
   }
 
   then(fulfilledCallBack, rejectedCallBack) {
-    this.fulfilledAry.push(fulfilledCallBack);
+    // 返回一个新的promise 实例
+    return new Promise((resolve, reject) =>{
+      this.fulfilledAry.push(() => {
+        try{
+          let x = fulfilledCallBack(this.value)
+          if(x instanceof Promise) {
+            x.then(resolve, reject);
+            return;
+          }
+          resolve(x)
+        }catch(err) {
+          reject(err)
+        }
+      });
 
-    this.rejectedAry.push(rejectedCallBack)
+      this.rejectedAry.push(()=> {
+        try{
+          let x = rejectedCallBack(this.value)
+
+          resolve(x)
+        }catch(err) {
+          reject(err)
+        }
+      })
+    })
+    //this.fulfilledAry.push(fulfilledCallBack);
+
+    //this.rejectedAry.push(rejectedCallBack)
   }
 }
 
