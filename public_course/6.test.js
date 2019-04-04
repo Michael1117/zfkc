@@ -1,4 +1,4 @@
-//let Promise = require('./6.promise');
+let Promise = require('./6.promise');
 
 
 new Promise((resolve, reject)=> {
@@ -6,14 +6,12 @@ new Promise((resolve, reject)=> {
 
     reject(200)
 }).then(result => {
-    console.log(result)
+    //console.log(result)
     console.log(1)
     //return 1000
-    throw new Error('Error')
+    //throw new Error('Error')
 }, () => {
     console.log(2)
-}).then(result => {
-    console.log(result)
-}, reason=> {
-    console.log(reason)
 })
+
+console.log(3)
