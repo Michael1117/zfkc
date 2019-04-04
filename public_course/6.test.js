@@ -1,26 +1,27 @@
 let Promise = require('./6.promise');
 
-let p1 = new Promise((resolve, reject)=> {
+let p1 = new Promise((resolve, reject) => {
     setTimeout(() => {
-        
-        /* Math.random < 0.5  ? resolve(100) : reject(-100) */
-        resolve(100)
-    }, 1000) 
-})
+        reject(100)
+    })
+}, 50)
 
-let p2 = p1.then(result => {
-    //throw new Error('Error')
-    return result + 100 
-})
+let p2 = new Promise((resolve, reject) => {
+    setTimeout(() => {
+        resolve(200)
+    })
+}, 10)
 
-let p3 = p2.then(null)
+let p3 = new Promise((resolve, reject) => {
+    setTimeout(() => {
+        resolve(300)
+    })
+}, 90)
 
-p3.then(result => {
+Promise.all([p1, p2 ,p3]).then(result => {
+    // 所有的promise都成功执行，result
+    
     console.log(result)
-    throw new Error('Error')
-}, reason => {
-    //console.log(reason)
-}).catch(reason=>{
+}).catch(reason => {
     console.log(reason)
 })
-console.log(3)

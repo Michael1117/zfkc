@@ -44,7 +44,7 @@ class Promise{
     // 处理不传递的状况
     typeof fulfilledCallBack !== 'function' ? fulfilledCallBack = result => result : null;
     typeof rejectedCallBack !== 'function' ? rejectedCallBack = reason => {
-      throw new Error(reason.message);
+      throw new Error(reason instanceof Error ? reason.message: reason);
     }: null;
     // 返回一个新的promise 实例
     return new Promise((resolve, reject) =>{
@@ -78,6 +78,25 @@ class Promise{
 
   catch(rejectedCallBack) {
     return this.then(null, rejectedCallBack)
+  }
+
+  static all(promiseAry = []) {  // Promise.all()
+    return new Promise((resolve, reject) => {
+      let index = 0, // 记录有几个成功了
+          result = []  // 记录成功的结果
+      for(let i = 0; i < promiseAry.length; i++) {
+        // promiseAry[i] 每一个需要处理的promise实例
+        promiseAry[i].then(val => {
+          index ++;
+          result[i] = val;  // 索引需要和promiseAry对应上 ，保证结果的顺序和数组顺序一致
+          if(index === promiseAry.length) {
+            resolve(result)
+          }
+        }, reason => {
+          reject(reason)
+        })
+      }
+    })
   }
 }
 
