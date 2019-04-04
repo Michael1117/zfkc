@@ -41,6 +41,11 @@ class Promise{
   }
 
   then(fulfilledCallBack, rejectedCallBack) {
+    // 处理不传递的状况
+    typeof fulfilledCallBack !== 'function' ? fulfilledCallBack = result => result : null;
+    typeof rejectedCallBack !== 'function' ? rejectedCallBack = reason => {
+      throw new Error(reason.message);
+    }: null;
     // 返回一个新的promise 实例
     return new Promise((resolve, reject) =>{
       this.fulfilledAry.push(() => {
@@ -69,6 +74,10 @@ class Promise{
     //this.fulfilledAry.push(fulfilledCallBack);
 
     //this.rejectedAry.push(rejectedCallBack)
+  }
+
+  catch(rejectedCallBack) {
+    return this.then(null, rejectedCallBack)
   }
 }
 
