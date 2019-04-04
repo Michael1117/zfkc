@@ -29,7 +29,15 @@ class Promise{
       },0 )
       
     }
-    excutorCallBack(resolveFn, rejectFn);
+
+    // 执行excutor (异常捕获)
+    try{
+      excutorCallBack(resolveFn, rejectFn);
+    }catch(err) {
+      // 有异常信息按照rejected 状态处理
+      rejectFn(err)
+    }
+    
   }
 
   then(fulfilledCallBack, rejectedCallBack) {
