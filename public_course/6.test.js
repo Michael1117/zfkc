@@ -1,4 +1,4 @@
-let Promise = require('./6.promise');
+//let Promise = require('./6.promise');
 
 let p1 = new Promise((resolve, reject) => {
     setTimeout(() => {
@@ -8,7 +8,8 @@ let p1 = new Promise((resolve, reject) => {
 
 let p2 = new Promise((resolve, reject) => {
     setTimeout(() => {
-        resolve(200)
+        //resolve(200)
+        reject(200)
     })
 }, 10)
 
